@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/kokoro.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" type="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Country</title>
+  </head>
+  <audio id="argentina" src="sounds/argentina.mp3"></audio>
+  <audio id="australia" src="sounds/australia.mp3"></audio>
+  <audio id="brazil" src="sounds/brazil.mp3"></audio>
+  <audio id="canada" src="sounds/canada.mp3"></audio>
+  <audio id="china" src="sounds/china.mp3"></audio>
+  <audio id="egypt" src="sounds/egypt.mp3"></audio>
+  <audio id="france" src="sounds/france.mp3"></audio>
+  <audio id="germany" src="sounds/germany.mp3"></audio>
+  <audio id="india" src="sounds/india.mp3"></audio>
+  <audio id="italy" src="sounds/italy.mp3"></audio>
+  <audio id="japan" src="sounds/japan.mp3"></audio>
+  <audio id="mexico" src="sounds/mexico.mp3"></audio>
+  <audio id="new_zealand" src="sounds/new_zealand.mp3"></audio>
+  <audio id="russia" src="sounds/russia.mp3"></audio>
+  <audio id="south_africa" src="sounds/south_africa.mp3"></audio>
+  <audio id="south_korea" src="sounds/south_korea.mp3"></audio>
+  <audio id="spain" src="sounds/spain.mp3"></audio>
+  <audio id="sweden" src="sounds/sweden.mp3"></audio>
+  <audio id="switzerland" src="sounds/switzerland.mp3"></audio>
+  <audio id="thailand" src="sounds/thailand.mp3"></audio>
+  <audio id="the_netherlands" src="sounds/the_netherlands.mp3"></audio>
+  <audio id="the_united_kingdom" src="sounds/the_united_kingdom.mp3"></audio>
+  <audio
+    id="the_united_states_of_america"
+    src="sounds/the_united_states_of_america.mp3"
+  ></audio>
+  <audio id="turkey" src="sounds/turkey.mp3"></audio>
+  <audio id="vietnam" src="sounds/vietnam.mp3"></audio>
+
+  <body>
+    <h1>country</h1>
+    <div class="container">
+      <!-- Argentina -->
+      <div class="text">
+        <h3 class="text-title">Argentina</h3>
+        <a onclick="document.getElementById('argentina').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1592593640541-9363711fdb2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">アルゼンチン</p>
+        </div>
+      </div>
+      <!-- Argentina end -->
+
+      <!-- Australia -->
+      <div class="text">
+        <h3 class="text-title">Australia</h3>
+        <a onclick="document.getElementById('australia').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1647043773350-d0c26d37038e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">オーストラリア</p>
+        </div>
+      </div>
+      <!-- Australia end -->
+
+      <!-- Brazil -->
+      <div class="text">
+        <h3 class="text-title">Brazil</h3>
+        <a onclick="document.getElementById('brazil').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1632184078944-b8a9cd828a57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ブラジル</p>
+        </div>
+      </div>
+      <!-- Brazil end -->
+
+      <!-- Canada -->
+      <div class="text">
+        <h3 class="text-title">Canada</h3>
+        <a onclick="document.getElementById('canada').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1590197794698-1f4e1ac3d496?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">カナダ</p>
+        </div>
+      </div>
+      <!-- Canada end -->
+
+      <!-- China -->
+      <div class="text">
+        <h3 class="text-title">China</h3>
+        <a onclick="document.getElementById('china').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1589889353869-b0c95b307770?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">ちゅうごく</p>
+        </div>
+      </div>
+      <!-- China end -->
+
+      <!-- Egypt -->
+      <div class="text">
+        <h3 class="text-title">Egypt</h3>
+        <a onclick="document.getElementById('egypt').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1592996757998-43ef2e0b0835?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">エジプト</p>
+        </div>
+      </div>
+      <!-- Egypt end -->
+
+      <!-- France -->
+      <div class="text">
+        <h3 class="text-title">France</h3>
+        <a onclick="document.getElementById('france').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1551866442-64e75e911c23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">フランス</p>
+        </div>
+      </div>
+      <!-- France end -->
+
+      <!-- Germany -->
+      <div class="text">
+        <h3 class="text-title">Germany</h3>
+        <a onclick="document.getElementById('germany').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1618259278412-2819cbdea4dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=821&q=80"
+          />
+          <p class="img__description">ドイツ</p>
+        </div>
+      </div>
+      <!-- Germany end -->
+
+      <!-- India -->
+      <div class="text">
+        <h3 class="text-title">India</h3>
+        <a onclick="document.getElementById('india').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1532375810709-75b1da00537c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80"
+          />
+          <p class="img__description">インド</p>
+        </div>
+      </div>
+      <!-- India end -->
+
+      <!-- Italy -->
+      <div class="text">
+        <h3 class="text-title">Italy</h3>
+        <a onclick="document.getElementById('italy').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1596627116752-94ec9536a1fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+          />
+          <p class="img__description">イタリア</p>
+        </div>
+      </div>
+      <!-- Italy end -->
+
+      <!-- Japan -->
+      <div class="text">
+        <h3 class="text-title">Japan</h3>
+        <a onclick="document.getElementById('japan').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1559613966-ddf859988e3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">にほん</p>
+        </div>
+      </div>
+      <!-- Japan end -->
+
+      <!-- Mexico -->
+      <div class="text">
+        <h3 class="text-title">Mexico</h3>
+        <a onclick="document.getElementById('mexico').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1619301912381-76a94f8b28c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=990&q=80"
+          />
+          <p class="img__description">メキシコ</p>
+        </div>
+      </div>
+      <!-- Mexico end -->
+
+      <!-- New Zealand -->
+      <div class="text">
+        <h3 class="text-title">New Zealand</h3>
+        <a onclick="document.getElementById('new_zealand').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1659595898864-2133cf7fdd11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=749&q=80"
+          />
+          <p class="img__description">ニュージーランド</p>
+        </div>
+      </div>
+      <!-- New Zealand end -->
+
+      <!-- Russia -->
+      <div class="text">
+        <h3 class="text-title">Russia</h3>
+        <a onclick="document.getElementById('russia').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1563451201592-10dd888363ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1043&q=80"
+          />
+          <p class="img__description">ロシア</p>
+        </div>
+      </div>
+      <!-- Russia end -->
+
+      <!-- South Africa -->
+      <div class="text">
+        <h3 class="text-title">South Africa</h3>
+        <a onclick="document.getElementById('south_africa').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1613244600331-ac72a1ee5256?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">みなみアフリカ</p>
+        </div>
+      </div>
+      <!-- South Africa end -->
+
+      <!-- South Korea -->
+      <div class="text">
+        <h3 class="text-title">South Korea</h3>
+        <a onclick="document.getElementById('south_korea').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1558042195-88baba548eab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80"
+          />
+          <p class="img__description">かんこく</p>
+        </div>
+      </div>
+      <!-- South Korea end -->
+
+      <!-- Spain -->
+      <div class="text">
+        <h3 class="text-title">Spain</h3>
+        <a onclick="document.getElementById('spain').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1566232392379-afd9298e6a46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">スペイン</p>
+        </div>
+      </div>
+      <!-- Spain end -->
+
+      <!-- Sweden -->
+      <div class="text">
+        <h3 class="text-title">Sweden</h3>
+        <a onclick="document.getElementById('sweden').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1645286636903-890ce32aa287?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+          />
+          <p class="img__description">スウェーデン</p>
+        </div>
+      </div>
+      <!-- Sweden end -->
+
+      <!-- Switzerland -->
+      <div class="text">
+        <h3 class="text-title">Switzerland</h3>
+        <a onclick="document.getElementById('switzerland').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1618493075021-1bbe5deebedf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+          />
+          <p class="img__description">スイス</p>
+        </div>
+      </div>
+      <!-- Switzerland end -->
+
+      <!-- Thailand -->
+      <div class="text">
+        <h3 class="text-title">Thailand</h3>
+        <a onclick="document.getElementById('thailand').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1645421105080-525091cfead0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">タイ</p>
+        </div>
+      </div>
+      <!-- Thailand end -->
+
+      <!-- The Netherlands -->
+      <div class="text">
+        <h3 class="text-title">The Netherlands</h3>
+        <a onclick="document.getElementById('the_netherlands').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1656065471264-f69800f0f7ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">オランダ</p>
+        </div>
+      </div>
+      <!-- The Netherlands end -->
+
+      <!-- The United Kingdom -->
+      <div class="text">
+        <h3 class="text-title uk">The United Kingdom</h3>
+        <a onclick="document.getElementById('the_united_kingdom').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1526659437208-31f0f3e1aae8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">イギリス</p>
+        </div>
+      </div>
+      <!-- The United Kingdom end -->
+
+      <!-- The United States of America -->
+      <div class="text">
+        <h3 class="text-title usa">The United States of America</h3>
+        <a
+          onclick="document.getElementById('the_united_states_of_america').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1473090826765-d54ac2fdc1eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=725&q=80"
+          />
+          <p class="img__description">アメリア</p>
+        </div>
+      </div>
+      <!-- The United States of America end -->
+
+      <!-- Turkey -->
+      <div class="text">
+        <h3 class="text-title">Turkey</h3>
+        <a onclick="document.getElementById('turkey').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1605581810011-c6d684e7ca22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=838&q=80"
+          />
+          <p class="img__description">トルコ</p>
+        </div>
+      </div>
+      <!-- Turkey end -->
+
+      <!-- Vietnam -->
+      <div class="text">
+        <h3 class="text-title">Vietnam</h3>
+        <a onclick="document.getElementById('vietnam').play();"
+          ><i id="icon" class="fas fa-volume-up"></i
+        ></a>
+        <button class="text-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-chevron-up"></i>
+        </button>
+        <div class="text-img">
+          <img
+            class="text-img"
+            src="https://images.unsplash.com/photo-1582281433009-08a8ad6d54dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          />
+          <p class="img__description">ベトナム</p>
+        </div>
+      </div>
+      <!-- Vietnam end -->
+    </div>
+    <!-- container end -->
+    <script src="script.js"></script>
+  </body>
+</html>
